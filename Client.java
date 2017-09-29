@@ -13,7 +13,7 @@ public class Client {
         int value = 0;
 
         try{
-            CalculatorInterface myNewCalculator = (CalculatorInterface) Naming.lookup("rmi://10.0.0.8/BrettsCalculator");
+            CalculatorInterface myNewCalculator = (CalculatorInterface) Naming.lookup("rmi://localhost/BrettsCalculator");
 
 
 
