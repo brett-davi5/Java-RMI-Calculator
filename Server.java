@@ -8,7 +8,7 @@ public class Server {
 
         try{
             CalculatorActual myCalculator = new CalculatorActual();
-            Naming.rebind("rmi://10.0.0.8/BrettsCalculator", myCalculator);
+            Naming.rebind("rmi://localhost/BrettsCalculator", myCalculator);
             System.out.println("Server is ready.");
 
         }catch (Exception e){
